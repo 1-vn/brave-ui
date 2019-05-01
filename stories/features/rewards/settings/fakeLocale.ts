@@ -3,14 +3,14 @@
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 const locale = {
-  adsDesc: 'Earn tokens by seeing ads on Brave. Ads are matched from machine learning and the data temporarily present in your browser without tracking your information or sending it outside.',
+  adsDesc: 'Earn tokens by seeing ads on 1-VN. Ads are matched from machine learning and the data temporarily present in your browser without tracking your information or sending it outside.',
   adsDisabledTextOne: 'Earnings are paid every month.',
   adsDisabledTextTwo: 'Set your desired frequency to increase or decrease earnings.',
   adsDisplayed: 'Ads displayed',
   adsEarnings: 'Earnings this month',
   adsFreq: 'Ad Frequency',
   adsMode: 'Ad mode',
-  adsTitle: 'Brave Ads',
+  adsTitle: '1-VN Ads',
   contributionAllowed: 'What should be allowed?',
   contributionDesc: 'A simple way to support content creators. Set monthly allowance and browse normally. Your favorite sites (content sites only) receive your contributions automatically. You can exclude sites from funding here.',
   contributionMinTime: 'Minimum page time before logging a visit',

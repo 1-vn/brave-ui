@@ -4,7 +4,7 @@
   "sideEffects": false,
   "version": "0.34.4",
   "description": "List of reusable React components to empower your brave UI",
-  "author": "Brave Software",
+  "author": "1-VN Software",
   "contributors": [
     {
       "name": "Cezar Augusto",
@@ -21,6 +21,10 @@
     {
       "name": "Ryan Lanese",
       "email": "rlanese@brave.com"
+    },
+    {
+      "name": "Daniel Do",
+      "email": "dotiendiep@gmail.com"
     }
   ],
   "license": "MPL-2.0",
@@ -124,7 +128,7 @@
   },
   "storybook-deployer": {
     "gitUsername": "Brave Nespresso Drinker and Static Deployer Bot",
-    "gitEmail": "deploying-for-the-deployer-lord@brave.com",
+    "gitEmail": "deploying-for-the-deployer-lord@1-vn.com",
     "commitMessage": "Update Styleguide"
   },
   "jest": {

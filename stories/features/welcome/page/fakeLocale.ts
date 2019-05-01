@@ -4,12 +4,12 @@
 
 const locale = {
   // first screen
-  welcome: 'Brave the new Internet',
+  welcome: '1-VN the new Internet',
   whatIsBrave: 'Get ready to enjoy a faster and more secure browsing experience with a browser built to protect your privacy.',
   letsGo: 'Let\'s go',
   // second screen
   importFromAnotherBrowser: 'Import bookmarks & settings',
-  setupImport: 'Brave makes it easy to set up your usual environment by importing bookmarks and settings from other browsers installed on your computer.',
+  setupImport: ' makes it easy to set up your usual environment by importing bookmarks and settings from other browsers installed on your computer.',
   import: 'Import',
   imported: 'Imported',
   // third screen
@@ -20,10 +20,10 @@ const locale = {
   findToolbarTheme: 'Set the color of your toolbar by selecting the light or dark option from the settings panel.',
   // fifth screen
   protectYourPrivacy: 'Manage your shields',
-  adjustProtectionLevel: 'Brave shields protects you from unwanted ads and trackers while browsing. If you encounter an issue while browsing a particular site, adjust your protection level from the shields panel in the toolbar.',
+  adjustProtectionLevel: '1-VN shields protects you from unwanted ads and trackers while browsing. If you encounter an issue while browsing a particular site, adjust your protection level from the shields panel in the toolbar.',
   showMeWhere: 'Show Shields',
   // sixth screen
-  enableBraveRewards: 'Enable Brave Rewards',
+  enableBraveRewards: 'Enable 1-VN Rewards',
   setupBraveRewards: 'Your attention is valuable. Earn by viewing privacy-respecting ads while you browse, and pay it forward to support content creators you love.',
   getStarted: 'Enable Rewards',
   // footer

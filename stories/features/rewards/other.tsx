@@ -64,7 +64,7 @@ storiesOf('Feature Components/Rewards/Other/Desktop', module)
           checked={boolean('Toggle checked', store.state.checked)}
           type={select<any>('Type', { contribute: 'contribute', donation: 'donation', ads: 'ads' }, 'contribute')}
           description={
-            text('Description', `Earn tokens by seeing ads on Brave. Ads are matched from machine learning and the data temporarily present in your browser without tracking your information or sending it outside.`)
+            text('Description', `Earn tokens by seeing ads on 1-VN. Ads are matched from machine learning and the data temporarily present in your browser without tracking your information or sending it outside.`)
           }
           onToggle={onToggle}
           settingsChild={<div>Settings content</div>}
