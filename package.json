@@ -2,7 +2,7 @@
   "name": "onevn-ui",
   "main": "index.js",
   "sideEffects": false,
-  "version": "0.34.5",
+  "version": "0.34.6",
   "description": "List of reusable React components to empower your onevn UI",
   "author": "1-VN Software",
   "contributors": [
