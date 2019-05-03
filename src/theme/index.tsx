@@ -1,9 +1,9 @@
 // @ts-ignore: Needed for ThemeProvider
 import * as React from 'react'
 import * as styledComponents from 'styled-components'
-import IThemeProps, { BraveThemedStyledProps as ThemedStyledProps } from './theme-interface'
+import IThemeProps, { OneVNThemedStyledProps as ThemedStyledProps } from './theme-interface'
 // theme for testing
-import TestTheme from './brave-default'
+import TestTheme from './onevn-default'
 
 const {
   default: styled,

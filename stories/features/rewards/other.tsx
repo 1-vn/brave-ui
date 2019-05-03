@@ -59,7 +59,7 @@ storiesOf('Feature Components/Rewards/Other/Desktop', module)
     return (
       <div style={{ width: '595px' }}>
         <Box
-          title={text('Title', 'Brave ads')}
+          title={text('Title', 'OneVN ads')}
           toggle={boolean('Show toggle', store.state.toggle)}
           checked={boolean('Toggle checked', store.state.checked)}
           type={select<any>('Type', { contribute: 'contribute', donation: 'donation', ads: 'ads' }, 'contribute')}
@@ -151,7 +151,7 @@ storiesOf('Feature Components/Rewards/Other/Desktop', module)
     return (
       <div style={{ width: '400px' }}>
         <ListToken
-          title={text('Title', 'Brave Contribute')}
+          title={text('Title', 'OneVN Contribute')}
           value={text('Value', '10.0')}
           converted={text('Converted', '0.25')}
           isNegative={boolean('Is negative', false)}
@@ -237,7 +237,7 @@ storiesOf('Feature Components/Rewards/Other/Desktop', module)
     )
   }))
   .add('Tooltip', () => {
-    const braveAdsText = <span>Brave Ads Settings</span>
+    const onevnAdsText = <span>OneVN Ads Settings</span>
     const batLogoText = <span>BAT Logo</span>
     const styledUpholdContent = (
       <div>
@@ -252,7 +252,7 @@ storiesOf('Feature Components/Rewards/Other/Desktop', module)
         <div style={{ position: 'absolute', top: '200px', left: '700px' }}>
           <Tooltip
             id={'tooltip-test'}
-            content={braveAdsText}
+            content={onevnAdsText}
           >
             <div style={{ width: '30px' }}>
               <SettingsIcon color={'#A1A8F2'} />
@@ -332,7 +332,7 @@ storiesOf('Feature Components/Rewards/Other/Mobile', module)
     return (
       <div style={{ width: '100%' }}>
         <BoxMobile
-          title={text('Title', 'Brave Auto-Contribute')}
+          title={text('Title', 'OneVN Auto-Contribute')}
           toggle={boolean('Show toggle', store.state.toggle)}
           checked={boolean('Toggle checked', store.state.checked)}
           type={select<any>('Type', { contribute: 'contribute', donation: 'donation', ads: 'ads' }, 'contribute')}

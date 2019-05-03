@@ -13,7 +13,7 @@ const locale: any = {
   thisSyncChain: 'from Sync Chain',
   lookingForDevice: 'Looking for device',
   // Enabled Content
-  braveSync: '1-VN Sync',
+  onevnSync: '1-VN Sync',
   syncChainDevices:
     'The device list below includes all devices in your sync chain. Each device can be managed from any other device.',
   deviceName: 'device name',

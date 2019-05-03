@@ -55,7 +55,7 @@ class PageWallet extends React.Component<{}, State> {
           provider: 'youtube',
           src: bartBaker
         },
-        url: 'https://brave.com',
+        url: 'https://1-vn.com',
         attention: 40,
         onRemove: doNothing,
         token: {
@@ -69,7 +69,7 @@ class PageWallet extends React.Component<{}, State> {
           verified: true,
           src: ddgo
         },
-        url: 'https://brave.com',
+        url: 'https://1-vn.com',
         attention: 20,
         onRemove: doNothing,
         token: {
@@ -83,7 +83,7 @@ class PageWallet extends React.Component<{}, State> {
           verified: false,
           src: buzz
         },
-        url: 'https://brave.com',
+        url: 'https://1-vn.com',
         attention: 10,
         onRemove: doNothing,
         token: {
@@ -97,7 +97,7 @@ class PageWallet extends React.Component<{}, State> {
           verified: true,
           src: guardian
         },
-        url: 'https://brave.com',
+        url: 'https://1-vn.com',
         attention: 5,
         onRemove: doNothing,
         token: {
@@ -111,7 +111,7 @@ class PageWallet extends React.Component<{}, State> {
           verified: false,
           src: wiki
         },
-        url: 'https://brave.com',
+        url: 'https://1-vn.com',
         attention: 4,
         onRemove: doNothing,
         token: {
@@ -127,7 +127,7 @@ class PageWallet extends React.Component<{}, State> {
       {
         date: '6/1',
         type: 'deposit',
-        description: 'Brave Ads payment for May',
+        description: 'OneVN Ads payment for May',
         amount: {
           value: '5.0',
           converted: '5.00'
@@ -346,7 +346,7 @@ class PageWallet extends React.Component<{}, State> {
                 }
               },
               {
-                text: 'Earnings from Brave Ads',
+                text: 'Earnings from OneVN Ads',
                 type: 'ads',
                 token: {
                   value: '10.0',
@@ -354,7 +354,7 @@ class PageWallet extends React.Component<{}, State> {
                 }
               },
               {
-                text: 'Brave Contribute',
+                text: 'OneVN Contribute',
                 type: 'contribute',
                 notPaid: true,
                 token: {

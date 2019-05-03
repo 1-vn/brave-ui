@@ -45,7 +45,7 @@ export default class MainToggle extends React.PureComponent<Props, {}> {
               <BatColorIcon />
             </StyledLogoWrapper>
             <StyledTitle>
-              {getLocale('braveRewards')}
+              {getLocale('onevnRewards')}
             </StyledTitle>
           </StyledLogotypeWrapper>
           <Toggle checked={enabled} onToggle={onToggle} testId={testId} />

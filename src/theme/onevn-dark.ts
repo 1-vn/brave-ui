@@ -1,9 +1,9 @@
 import ITheme from './theme-interface'
-import defaultTheme from './brave-default'
+import defaultTheme from './onevn-default'
 
 const darkTheme: ITheme = {
   ...defaultTheme,
-  name: 'Brave Dark'
+  name: 'OneVN Dark'
 }
 
 export default darkTheme

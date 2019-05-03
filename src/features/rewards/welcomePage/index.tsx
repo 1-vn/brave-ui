@@ -107,14 +107,14 @@ class WelcomePage extends React.PureComponent<Props, {}> {
           </StyledBatLogo>
           <StyledHeroInfo>
             <StyledRewardsTitle level={2}>
-              {getLocale('braveRewardsTitle')}
+              {getLocale('onevnRewardsTitle')}
             </StyledRewardsTitle>
             <StyledTrademark>TM</StyledTrademark>
             <StyledSubTitle level={4}>
-              {getLocale('braveRewardsSubTitle')}
+              {getLocale('onevnRewardsSubTitle')}
             </StyledSubTitle>
             <StyledRewardsParagraph>
-              {getLocale('braveRewardsDesc')}
+              {getLocale('onevnRewardsDesc')}
             </StyledRewardsParagraph>
           </StyledHeroInfo>
         </StyledSection>
@@ -125,14 +125,14 @@ class WelcomePage extends React.PureComponent<Props, {}> {
                 type={'opt-in'}
                 disabled={true}
                 testId={'optInAction'}
-                text={getLocale('braveRewardsCreatingText')}
+                text={getLocale('onevnRewardsCreatingText')}
                 icon={<LoaderIcon />}
               />
               : <RewardsButton
                 type={'opt-in'}
                 onClick={this.optInAction}
                 testId={'optInAction'}
-                text={getLocale('braveRewardsOptInText')}
+                text={getLocale('onevnRewardsOptInText')}
               />
           }
         </StyledOptInSection>
@@ -147,7 +147,7 @@ class WelcomePage extends React.PureComponent<Props, {}> {
         }
         <StyledSection>
           <StyledTeaserParagraph>
-            {getLocale('braveRewardsTeaser')}
+            {getLocale('onevnRewardsTeaser')}
           </StyledTeaserParagraph>
           <StyledAnchor onClick={this.scrollToCenter}>
             <ArrowDownIcon />
@@ -162,13 +162,13 @@ class WelcomePage extends React.PureComponent<Props, {}> {
       <StyledCenterContent>
         <StyledCenterInner>
           <StyledCenterTitle level={3}>
-            {getLocale('whyBraveRewards')}
+            {getLocale('whyOneVNRewards')}
           </StyledCenterTitle>
           <StyledCenterParagraph>
-            {getLocale('whyBraveRewardsDesc1')}
+            {getLocale('whyOneVNRewardsDesc1')}
           </StyledCenterParagraph>
           <StyledCenterParagraph>
-            {getLocale('whyBraveRewardsDesc2')}
+            {getLocale('whyOneVNRewardsDesc2')}
           </StyledCenterParagraph>
         </StyledCenterInner>
       </StyledCenterContent>
@@ -189,7 +189,7 @@ class WelcomePage extends React.PureComponent<Props, {}> {
               ? <RewardsButton
                 type={'cta-opt-in'}
                 disabled={true}
-                text={getLocale('braveRewardsCreatingText')}
+                text={getLocale('onevnRewardsCreatingText')}
                 icon={<LoaderIcon />}
               />
               : <RewardsButton
@@ -220,13 +220,13 @@ class WelcomePage extends React.PureComponent<Props, {}> {
         icon: <RewardsActivateIcon />
       },
       {
-        title: getLocale('braveAdsTitle'),
-        description: getLocale('braveAdsDesc'),
+        title: getLocale('onevnAdsTitle'),
+        description: getLocale('onevnAdsDesc'),
         icon: <AdsMegaphoneIcon />
       },
       {
-        title: getLocale('braveContributeTitle'),
-        description: getLocale('braveContributeDesc'),
+        title: getLocale('onevnContributeTitle'),
+        description: getLocale('onevnContributeDesc'),
         icon: <RewardsSendTipsIcon />
       }
     ]

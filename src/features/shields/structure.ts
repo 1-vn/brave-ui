@@ -155,23 +155,23 @@ export const BlockedInfoRowData = styled<BlockedInfoRowDataProps, 'div'>('div')`
   &:focus {
     outline-width: 2px;
     outline-offset: -3px;
-    outline-color: ${p => p.theme.color.brandBrave};
+    outline-color: ${p => p.theme.color.brandOneVN};
   }
 
   &:hover {
     cursor: pointer;
-    color: ${p => p.theme.color.brandBrave};
+    color: ${p => p.theme.color.brandOneVN};
 
     ${BlockedInfoRowStats} {
-      color: ${p => p.theme.color.brandBrave};
+      color: ${p => p.theme.color.brandOneVN};
     }
     ${BlockedInfoRowText} {
-      color: ${p => p.theme.color.brandBrave};
+      color: ${p => p.theme.color.brandOneVN};
     }
   }
 
   &:hover svg {
-    color: ${p => p.theme.color.brandBrave};
+    color: ${p => p.theme.color.brandOneVN};
   }
 `
 
@@ -235,7 +235,7 @@ export const BlockedListSummary = styled<BlockedListSummaryProps, 'summary'>('su
   &:focus {
     outline-width: 2px;
     outline-offset: -3px;
-    outline-color: ${p => p.theme.color.brandBrave};
+    outline-color: ${p => p.theme.color.brandOneVN};
   }
 
   &:active {

@@ -86,7 +86,7 @@ export default class Box extends React.PureComponent<Props, {}> {
                   {
                     settingsChild && ((toggle && checked) || !toggle) ?
                       <Tooltip
-                        id={'brave-ads-tip'}
+                        id={'onevn-ads-tip'}
                         content={this.getSettingsTitle(title)}
                       >
                         <StyledSettingsIcon onClick={onSettingsClick}>

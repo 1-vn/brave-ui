@@ -197,7 +197,7 @@ export default class SyncEnabledContent extends React.PureComponent<{}, State> {
             />
           ) : null}
           <SyncCard>
-            <Title level={2}>{getLocale('braveSync')}</Title>
+            <Title level={2}>{getLocale('onevnSync')}</Title>
             <Paragraph>{getLocale('syncChainDevices')}</Paragraph>
             <SectionBlock>
               <TableGrid isDeviceTable={true}>

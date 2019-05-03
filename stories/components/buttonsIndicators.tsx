@@ -105,7 +105,7 @@ storiesOf('Components', module)
           options: sectionOptionsNoProps,
           sectionFn: () => (
             <ComponentTypes>
-              <Button level='primary' type='accent' text='Brave' />
+              <Button level='primary' type='accent' text='OneVN' />
               <Button level='primary' type='accent' brand='rewards' text='Rewards' />
             </ComponentTypes>
           )

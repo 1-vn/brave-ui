@@ -60,6 +60,6 @@ export const StyledText = styled<StyleProps, 'div'>('div')`
   overflow: hidden;
   text-align: center;
   user-select: none;
-  color: ${p => p.selected ? p.theme.color.brandBrave : p.theme.color.subtleActive};
+  color: ${p => p.selected ? p.theme.color.brandOneVN : p.theme.color.subtleActive};
   font-weight: ${p => p.selected ? '500' : 'normal'};
 `

@@ -349,16 +349,16 @@ export default class WalletWrapper extends React.PureComponent<Props, State> {
 
     switch (notification.type) {
       case 'ads':
-        typeText = getLocale('braveAdsTitle')
+        typeText = getLocale('onevnAdsTitle')
         break
       case 'ads-launch':
-        typeText = getLocale('braveAdsLaunchTitle')
+        typeText = getLocale('onevnAdsLaunchTitle')
         break
       case 'backupWallet':
         typeText = getLocale('backupWalletTitle')
         break
       case 'contribute':
-        typeText = getLocale('braveContributeTitle')
+        typeText = getLocale('onevnContributeTitle')
         break
       case 'grant':
         typeText = getLocale('tokenGrant')

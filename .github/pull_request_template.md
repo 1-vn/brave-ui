@@ -14,9 +14,9 @@
   - [ ] Adding new backwards-compatible functionality? _(minor version increase)_
   - [ ] Fixing a bug backwards-compatibly? _(patch version increase)_
   
-- [ ] Does this contain changes to src/features for brave-core?
-  - [ ] Are there non backwards-compatible changes required for brave-core? **Do not merge until brave-core PR is approvable.** Link to brave-core PR:
-  - [ ] Will you create brave-core PR to update to this commit after it is merged?
-  - [ ] Wants uplift to brave-core feature branch?
-     - When uplift-approved, merge to brave-core-0.VV.x feature branch
-     - Create additional brave-core PRs for each feature branch to update commit
+- [ ] Does this contain changes to src/features for onevn-core?
+  - [ ] Are there non backwards-compatible changes required for onevn-core? **Do not merge until onevn-core PR is approvable.** Link to onevn-core PR:
+  - [ ] Will you create onevn-core PR to update to this commit after it is merged?
+  - [ ] Wants uplift to onevn-core feature branch?
+     - When uplift-approved, merge to onevn-core-0.VV.x feature branch
+     - Create additional onevn-core PRs for each feature branch to update commit

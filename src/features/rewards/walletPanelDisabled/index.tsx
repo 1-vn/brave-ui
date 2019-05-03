@@ -41,7 +41,7 @@ export default class WalletPanelDisabled extends React.PureComponent<Props, {}> 
           {getLocale('welcomeBack')}
         </StyledTitle>
         <StyledSubTitle>
-          {getLocale('braveRewardsSubTitle')}
+          {getLocale('onevnRewardsSubTitle')}
         </StyledSubTitle>
         <StyledText>
           {getLocale('disabledPanelTextTwo')}

@@ -42,14 +42,14 @@ export default class PanelWelcome extends React.PureComponent<Props, {}> {
     return {
       one: {
         header: 'welcomeHeaderOne',
-        title: 'braveRewards',
+        title: 'onevnRewards',
         desc: 'welcomeDescOne',
         button: 'welcomeButtonTextOne',
         footer: 'welcomeFooterTextOne'
       },
       two: {
         header: 'welcomeHeaderTwo',
-        title: 'braveRewards',
+        title: 'onevnRewards',
         desc: 'welcomeDescTwo',
         button: 'welcomeButtonTextTwo',
         footer: 'welcomeFooterTextTwo'
@@ -97,7 +97,7 @@ export default class PanelWelcome extends React.PureComponent<Props, {}> {
               level='secondary'
               size='call-to-action'
               type='subtle'
-              text={getLocale('braveRewardsCreatingText')}
+              text={getLocale('onevnRewardsCreatingText')}
               disabled={true}
               data-test-id='optInAction'
               icon={{

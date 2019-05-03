@@ -107,7 +107,7 @@ storiesOf('Feature Components/Rewards/Wallet/Desktop', module)
           }}
           onActivity={doNothing}
           reservedAmount={number('Reserved amount', 52)}
-          reservedMoreLink={'https://brave.com'}
+          reservedMoreLink={'https://1-vn.com'}
         />
       </div>
     )

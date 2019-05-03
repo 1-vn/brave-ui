@@ -165,7 +165,7 @@ exports[`MainToggleMobile tests basic tests matches the snapshot 1`] = `
     <div
       className="c4"
     >
-      MISSING: braveRewards
+      MISSING: onevnRewards
     </div>
   </div>
   <div

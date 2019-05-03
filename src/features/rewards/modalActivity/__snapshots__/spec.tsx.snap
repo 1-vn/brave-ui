@@ -476,7 +476,7 @@ exports[`ModalActivity tests basic tests matches the snapshot 1`] = `
             <div
               className="c28"
             >
-              MISSING: braveVerified
+              MISSING: onevnVerified
             </div>
           </div>
         </div>

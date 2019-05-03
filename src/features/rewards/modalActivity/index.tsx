@@ -96,7 +96,7 @@ export default class ModalActivity extends React.PureComponent<Props, {}> {
   get selectTitle () {
     return (
       <StyledTitle>
-        {getLocale('braveRewards')} <StyledSubTitle>{getLocale('walletActivity')}</StyledSubTitle>
+        {getLocale('onevnRewards')} <StyledSubTitle>{getLocale('walletActivity')}</StyledSubTitle>
       </StyledTitle>
     )
   }
@@ -261,7 +261,7 @@ export default class ModalActivity extends React.PureComponent<Props, {}> {
               <StyledVerifiedIcon>
                 <VerifiedIcon />
               </StyledVerifiedIcon>
-              <StyledVerifiedText>{getLocale('braveVerified')}</StyledVerifiedText>
+              <StyledVerifiedText>{getLocale('onevnVerified')}</StyledVerifiedText>
             </StyledVerified>
           </StyledTables>
           <StyledNote>

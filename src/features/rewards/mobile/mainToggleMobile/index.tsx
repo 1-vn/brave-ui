@@ -32,7 +32,7 @@ export default class MainToggleMobile extends React.PureComponent<Props, {}> {
             <BatColorIcon />
           </StyledLogoWrapper>
           <StyledTitle>
-            {getLocale('braveRewards')}
+            {getLocale('onevnRewards')}
           </StyledTitle>
         </StyledLeft>
         <StyledRight>

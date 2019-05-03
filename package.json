@@ -1,26 +1,14 @@
 {
-  "name": "brave-ui",
+  "name": "onevn-ui",
   "main": "index.js",
   "sideEffects": false,
   "version": "0.34.5",
-  "description": "List of reusable React components to empower your brave UI",
+  "description": "List of reusable React components to empower your onevn UI",
   "author": "1-VN Software",
   "contributors": [
     {
-      "name": "Cezar Augusto",
-      "email": "cezar@brave.com"
-    },
-    {
-      "name": "Nejc Zdovc",
-      "email": "nejc@brave.com"
-    },
-    {
-      "name": "Peter Miller",
-      "email": "peter@brave.com"
-    },
-    {
-      "name": "Ryan Lanese",
-      "email": "rlanese@brave.com"
+      "name": "Brave Team",
+      "email": "contact@brave.com"
     },
     {
       "name": "Daniel Do",
@@ -127,7 +115,7 @@
     ]
   },
   "storybook-deployer": {
-    "gitUsername": "Brave Nespresso Drinker and Static Deployer Bot",
+    "gitUsername": "OneVN Nespresso Drinker and Static Deployer Bot",
     "gitEmail": "deploying-for-the-deployer-lord@1-vn.com",
     "commitMessage": "Update Styleguide"
   },

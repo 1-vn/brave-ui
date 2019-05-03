@@ -28,7 +28,7 @@ const privateWindowImg = require('../../../assets/img/private-window-tor.svg')
 interface State {
   learnMoreAboutPrivateWindowsWithTor: boolean
   learnMoreAboutDuckDuckGo: boolean
-  learnMoreAboutTorInBrave: boolean
+  learnMoreAboutTorInOneVN: boolean
 }
 
 export default class TorTab extends React.PureComponent<{}, State> {
@@ -43,7 +43,7 @@ export default class TorTab extends React.PureComponent<{}, State> {
               <Title>{locale.headerTorTitle}</Title>
               <Text>{locale.headerTorText}</Text>
               {/* <FakeButton
-                href='https://support.brave.com/hc/en-us/articles/360018121491'
+                href='https://support.1-vn.com/hc/en-us/articles/360018121491'
                 target='_blank'
               >
                 {locale.headerTorButton}
@@ -60,12 +60,12 @@ export default class TorTab extends React.PureComponent<{}, State> {
           </Content>
           <Separator />
           <ButtonGroup>
-            <FakeButton settings={true} href='https://support.brave.com/hc/en-us/articles/360018266171' target='_blank'>
+            <FakeButton settings={true} href='https://support.1-vn.com/hc/en-us/articles/360018266171' target='_blank'>
               <span>{locale.learnMore}</span>
               <OpenNewIcon />
             </FakeButton>
             {/* <Link
-              href='https://support.brave.com/hc/en-us/articles/360018266171'
+              href='https://support.1-vn.com/hc/en-us/articles/360018266171'
               target='_blank'
             >
               {locale.learnMore}
@@ -81,7 +81,7 @@ export default class TorTab extends React.PureComponent<{}, State> {
           </Content>
           <Separator />
           <FakeButton
-            href='https://support.brave.com/hc/en-us/articles/360018121491'
+            href='https://support.1-vn.com/hc/en-us/articles/360018121491'
             target='_blank'
           >
             {locale.boxTorButton}
