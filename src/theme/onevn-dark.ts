@@ -3,7 +3,7 @@ import defaultTheme from './onevn-default'
 
 const darkTheme: ITheme = {
   ...defaultTheme,
-  name: 'OneVN Dark'
+  name: 'Onevn Dark'
 }
 
 export default darkTheme

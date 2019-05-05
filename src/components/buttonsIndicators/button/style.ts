@@ -30,9 +30,9 @@ const getThemeColors = (p: ThemedStyledProps<Props>) => {
     switch (p.type) {
       case 'accent':
         if (p.brand === 'onevn') {
-          mainColor = p.theme.color.brandOneVN
-          hoverColor = p.theme.color.brandOneVNInteracting
-          activeColor = p.theme.color.brandOneVNActive
+          mainColor = p.theme.color.brandOnevn
+          hoverColor = p.theme.color.brandOnevnInteracting
+          activeColor = p.theme.color.brandOnevnActive
         } else if (p.brand === 'rewards') {
           mainColor = p.theme.color.brandBat
           hoverColor = p.theme.color.brandBatInteracting

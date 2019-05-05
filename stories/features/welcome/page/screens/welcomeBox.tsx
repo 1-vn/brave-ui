@@ -35,7 +35,7 @@ export default class ThemingBox extends React.PureComponent<Props, {}> {
       >
         <WelcomeLionImage />
         <Title>{locale.welcome}</Title>
-        <Paragraph>{locale.whatIsOneVN}</Paragraph>
+        <Paragraph>{locale.whatIsOnevn}</Paragraph>
         <Button
           level='primary'
           type='accent'

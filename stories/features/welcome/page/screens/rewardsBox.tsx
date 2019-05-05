@@ -33,8 +33,8 @@ export default class PaymentsBox extends React.PureComponent<Props, {}> {
         isPrevious={index <= currentScreen}
       >
         <WelcomeRewardsImage />
-        <Title>{locale.enableOneVNRewards}</Title>
-        <Paragraph>{locale.setupOneVNRewards}</Paragraph>
+        <Title>{locale.enableOnevnRewards}</Title>
+        <Paragraph>{locale.setupOnevnRewards}</Paragraph>
         <Button
           level='primary'
           type='accent'

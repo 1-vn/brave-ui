@@ -626,17 +626,17 @@ exports[`WelcomePage tests basic tests matches the snapshot 1`] = `
               <h3
                 className="c29 c30 c31"
               >
-                MISSING: whyOneVNRewards
+                MISSING: whyOnevnRewards
               </h3>
               <p
                 className="c32"
               >
-                MISSING: whyOneVNRewardsDesc1
+                MISSING: whyOnevnRewardsDesc1
               </p>
               <p
                 className="c32"
               >
-                MISSING: whyOneVNRewardsDesc2
+                MISSING: whyOnevnRewardsDesc2
               </p>
             </section>
           </div>

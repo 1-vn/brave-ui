@@ -28,7 +28,7 @@ const privateWindowImg = require('../../../assets/img/private-window-tor.svg')
 interface State {
   learnMoreAboutPrivateWindowsWithTor: boolean
   learnMoreAboutDuckDuckGo: boolean
-  learnMoreAboutTorInOneVN: boolean
+  learnMoreAboutTorInOnevn: boolean
 }
 
 export default class TorTab extends React.PureComponent<{}, State> {

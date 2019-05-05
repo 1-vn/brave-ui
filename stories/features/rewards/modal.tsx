@@ -193,7 +193,7 @@ storiesOf('Feature Components/Rewards/Modal', module)
       {
         date: '6/1',
         type: 'deposit',
-        description: 'OneVN Ads payment for May',
+        description: 'Onevn Ads payment for May',
         amount: {
           value: '5.0',
           converted: '5.00'
@@ -295,7 +295,7 @@ storiesOf('Feature Components/Rewards/Modal', module)
             }
           },
           {
-            text: 'Earnings from OneVN Ads',
+            text: 'Earnings from Onevn Ads',
             type: 'ads',
             token: {
               value: '10.0',
@@ -311,7 +311,7 @@ storiesOf('Feature Components/Rewards/Modal', module)
             }
           },
           {
-            text: 'OneVN Contribute',
+            text: 'Onevn Contribute',
             type: 'contribute',
             notPaid: true,
             token: {

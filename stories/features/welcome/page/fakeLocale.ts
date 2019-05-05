@@ -5,7 +5,7 @@
 const locale = {
   // first screen
   welcome: '1-VN the new Internet',
-  whatIsOneVN: 'Get ready to enjoy a faster and more secure browsing experience with a browser built to protect your privacy.',
+  whatIsOnevn: 'Get ready to enjoy a faster and more secure browsing experience with a browser built to protect your privacy.',
   letsGo: 'Let\'s go',
   // second screen
   importFromAnotherBrowser: 'Import bookmarks & settings',
@@ -23,8 +23,8 @@ const locale = {
   adjustProtectionLevel: '1-VN shields protects you from unwanted ads and trackers while browsing. If you encounter an issue while browsing a particular site, adjust your protection level from the shields panel in the toolbar.',
   showMeWhere: 'Show Shields',
   // sixth screen
-  enableOneVNRewards: 'Enable 1-VN Rewards',
-  setupOneVNRewards: 'Your attention is valuable. Earn by viewing privacy-respecting ads while you browse, and pay it forward to support content creators you love.',
+  enableOnevnRewards: 'Enable 1-VN Rewards',
+  setupOnevnRewards: 'Your attention is valuable. Earn by viewing privacy-respecting ads while you browse, and pay it forward to support content creators you love.',
   getStarted: 'Enable Rewards',
   // footer
   skipWelcomeTour: 'Skip welcome tour',

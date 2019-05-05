@@ -10,12 +10,12 @@ const theme: ITheme = {
     ...colors
   },
   color: {
-    brandOneVN: colors.orange500,
+    brandOnevn: colors.orange500,
     brandBat: colors.blurple500,
     // onevn controls
-    brandOneVNInteracting: colors.orange500,
-    brandOneVNActive: colors.orange200,
-    brandOneVNLight: colors.orange000,
+    brandOnevnInteracting: colors.orange500,
+    brandOnevnActive: colors.orange200,
+    brandOnevnLight: colors.orange000,
     // bat controls
     brandBatInteracting: colors.blurple500,
     brandBatActive: colors.blurple200,

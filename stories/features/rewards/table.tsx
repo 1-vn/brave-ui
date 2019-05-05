@@ -166,7 +166,7 @@ storiesOf('Feature Components/Rewards/Table', module)
       {
         date: '6/1',
         type: 'deposit',
-        description: 'OneVN Ads payment for May',
+        description: 'Onevn Ads payment for May',
         amount: {
           value: '5.0',
           converted: '5.00'

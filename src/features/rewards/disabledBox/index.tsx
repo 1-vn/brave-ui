@@ -18,7 +18,7 @@ export default class DisabledBox extends React.PureComponent<{}, {}> {
       <StyledWrapper>
         <StyledCard>
           <StyledTitle>
-            {getLocale('whyOneVNRewards')}
+            {getLocale('whyOnevnRewards')}
           </StyledTitle>
           <StyledText>
             {getLocale('rewardsOffText5')}

@@ -17,7 +17,7 @@ addParameters({
 
 addParameters({
   options: {
-    name: 'OneVN UI',
+    name: 'Onevn UI',
     panelPosition: 'right',
     showNav: true,
     showPanel: true,

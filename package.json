@@ -115,7 +115,7 @@
     ]
   },
   "storybook-deployer": {
-    "gitUsername": "OneVN Nespresso Drinker and Static Deployer Bot",
+    "gitUsername": "Onevn Nespresso Drinker and Static Deployer Bot",
     "gitEmail": "deploying-for-the-deployer-lord@1-vn.com",
     "commitMessage": "Update Styleguide"
   },

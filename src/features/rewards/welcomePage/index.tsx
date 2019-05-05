@@ -162,13 +162,13 @@ class WelcomePage extends React.PureComponent<Props, {}> {
       <StyledCenterContent>
         <StyledCenterInner>
           <StyledCenterTitle level={3}>
-            {getLocale('whyOneVNRewards')}
+            {getLocale('whyOnevnRewards')}
           </StyledCenterTitle>
           <StyledCenterParagraph>
-            {getLocale('whyOneVNRewardsDesc1')}
+            {getLocale('whyOnevnRewardsDesc1')}
           </StyledCenterParagraph>
           <StyledCenterParagraph>
-            {getLocale('whyOneVNRewardsDesc2')}
+            {getLocale('whyOnevnRewardsDesc2')}
           </StyledCenterParagraph>
         </StyledCenterInner>
       </StyledCenterContent>

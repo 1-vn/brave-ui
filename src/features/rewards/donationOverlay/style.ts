@@ -222,5 +222,5 @@ export const StyledDate = styled<{}, 'span'>('span')`
   text-align: center;
   letter-spacing: 0;
   line-height: 28px;
-  color: ${p => p.theme.color.brandOneVN};
+  color: ${p => p.theme.color.brandOnevn};
 `

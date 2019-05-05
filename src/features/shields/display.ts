@@ -33,7 +33,7 @@ interface ToggleStateTextProps {
 
 export const ToggleStateText = styled<ToggleStateTextProps, 'span'>('span')`
   box-sizing: border-box;
-  color: ${p => p.status === 'enabled' ? p => p.theme.color.brandOneVN : p.theme.color.text};
+  color: ${p => p.status === 'enabled' ? p => p.theme.color.brandOnevn : p.theme.color.text};
   font-size: inherit;
   text-transform: uppercase;
   font-style: normal;
@@ -128,7 +128,7 @@ export const BlockedListItemHeaderStats = styled<{}, 'span'>('span')`
 export const Link = styled<{}, 'button'>('button')`
   box-sizing: border-box;
   -webkit-appearance: none;
-  color: ${p => p.theme.color.brandOneVN};
+  color: ${p => p.theme.color.brandOnevn};
   border: 0;
   padding: 0;
   background: transparent;
@@ -143,7 +143,7 @@ export const Link = styled<{}, 'button'>('button')`
 
   &:focus {
     outline-offset: 6px;
-    outline-color: ${p => p.theme.color.brandOneVN};
+    outline-color: ${p => p.theme.color.brandOnevn};
     outline-width: 2px;
   }
 
@@ -154,7 +154,7 @@ export const Link = styled<{}, 'button'>('button')`
 
 export const LinkAction = styled(Link)`
   box-sizing: border-box;
-  color: ${p => p.theme.color.brandOneVN};
+  color: ${p => p.theme.color.brandOnevn};
   font-size: inherit;
   font-weight: 500;
 
@@ -181,7 +181,7 @@ export const DisabledContentText = styled<{}, 'div'>('div')`
 export const ShieldsButton = styled(Button as ComponentType<ButtonProps>)`
   &:focus {
     outline-offset: 2px;
-    outline-color: ${p => p.theme.color.brandOneVN};
+    outline-color: ${p => p.theme.color.brandOnevn};
     outline-width: 2px;
   }
 

@@ -4,10 +4,10 @@ export default interface IThemeProps {
   name: string,
   palette: { [key: string]: string }
   color: {
-    brandOneVN: string
-    brandOneVNInteracting: string
-    brandOneVNActive: string
-    brandOneVNLight: string
+    brandOnevn: string
+    brandOnevnInteracting: string
+    brandOnevnActive: string
+    brandOnevnLight: string
     brandBat: string
     brandBatInteracting: string
     brandBatActive: string
@@ -40,4 +40,4 @@ export default interface IThemeProps {
   }
 }
 
-export type OneVNThemedStyledProps<T> = ThemedStyledProps<T, IThemeProps>
+export type OnevnThemedStyledProps<T> = ThemedStyledProps<T, IThemeProps>

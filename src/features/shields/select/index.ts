@@ -37,7 +37,7 @@ export const SelectBox = styled<SelectBoxProps, 'select'>('select')`
   -webkit-padding-start: 10px;
   -webkit-padding-end: 32px;
   outline-width: 2px;
-  outline-color: ${p => p.theme.color.brandOneVN};
+  outline-color: ${p => p.theme.color.brandOnevn};
   cursor: pointer;
 
   > option {

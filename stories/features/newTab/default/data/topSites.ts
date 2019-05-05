@@ -3,7 +3,7 @@
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 import AppStoreFavicon from '../../../../assets/img/newTab/topSites/appstore.png'
-import OneVNFavicon from '../../../../assets/img/newTab/topSites/onevn.png'
+import OnevnFavicon from '../../../../assets/img/newTab/topSites/onevn.png'
 import FacebookFavicon from '../../../../assets/img/newTab/topSites/facebook.png'
 import PlayStoreFavicon from '../../../../assets/img/newTab/topSites/playstore.png'
 import TwitterFavicon from '../../../../assets/img/newTab/topSites/twitter.png'
@@ -17,14 +17,14 @@ export const defaultTopSitesData = [
     background: 'rgba(255,255,255,0.8)'
   },
   {
-    name: 'OneVN Software',
+    name: 'Onevn Software',
     url: 'https://1-vn.com',
-    favicon: OneVNFavicon,
+    favicon: OnevnFavicon,
     background: 'rgba(255,255,255,0.8)'
   },
   {
     name: 'Facebook',
-    url: 'https://www.facebook.com/OneVNSoftware/',
+    url: 'https://www.facebook.com/OnevnSoftware/',
     favicon: FacebookFavicon,
     background: 'rgba(255,255,255,0.8)'
   },

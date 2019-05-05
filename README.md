@@ -11,9 +11,9 @@
 
 ---
 
-# :wave: Welcome to OneVN UI 
+# :wave: Welcome to Onevn UI 
 
-Here you will find a list of reusable React components used in most of OneVN products. OneVN UI's [component library](https://onevn.github.io/onevn-ui) can be found on Storybook.
+Here you will find a list of reusable React components used in most of Onevn products. Onevn UI's [component library](https://onevn.github.io/onevn-ui) can be found on Storybook.
 
 :exclamation:**Important:** We are still hacking a lot on this project, and therefore don't recommend that anyone use it yet. It's free to try and use at your own risk but bear in mind that components and APIs are very likely to change without notice.
 
@@ -23,7 +23,7 @@ Here you will find a list of reusable React components used in most of OneVN pro
 $ npm install
 ```
 
-## Using OneVN UI 
+## Using Onevn UI 
 
 ```
 npm run storybook-start

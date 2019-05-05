@@ -59,7 +59,7 @@ storiesOf('Feature Components/Rewards/Other/Desktop', module)
     return (
       <div style={{ width: '595px' }}>
         <Box
-          title={text('Title', 'OneVN ads')}
+          title={text('Title', 'Onevn ads')}
           toggle={boolean('Show toggle', store.state.toggle)}
           checked={boolean('Toggle checked', store.state.checked)}
           type={select<any>('Type', { contribute: 'contribute', donation: 'donation', ads: 'ads' }, 'contribute')}
@@ -151,7 +151,7 @@ storiesOf('Feature Components/Rewards/Other/Desktop', module)
     return (
       <div style={{ width: '400px' }}>
         <ListToken
-          title={text('Title', 'OneVN Contribute')}
+          title={text('Title', 'Onevn Contribute')}
           value={text('Value', '10.0')}
           converted={text('Converted', '0.25')}
           isNegative={boolean('Is negative', false)}
@@ -237,7 +237,7 @@ storiesOf('Feature Components/Rewards/Other/Desktop', module)
     )
   }))
   .add('Tooltip', () => {
-    const onevnAdsText = <span>OneVN Ads Settings</span>
+    const onevnAdsText = <span>Onevn Ads Settings</span>
     const batLogoText = <span>BAT Logo</span>
     const styledUpholdContent = (
       <div>
@@ -332,7 +332,7 @@ storiesOf('Feature Components/Rewards/Other/Mobile', module)
     return (
       <div style={{ width: '100%' }}>
         <BoxMobile
-          title={text('Title', 'OneVN Auto-Contribute')}
+          title={text('Title', 'Onevn Auto-Contribute')}
           toggle={boolean('Show toggle', store.state.toggle)}
           checked={boolean('Toggle checked', store.state.checked)}
           type={select<any>('Type', { contribute: 'contribute', donation: 'donation', ads: 'ads' }, 'contribute')}

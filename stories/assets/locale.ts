@@ -231,9 +231,9 @@ const locale: Record<string, string> = {
   welcomeFooterTextTwo: 'Learn More',
   welcomeHeaderOne: '1-VN Payments is now 1-VN Rewards with many upgrades.',
   welcomeHeaderTwo: 'You are about to start a very 1-VN way to browse the web.',
-  whyOneVNRewards: 'Why 1-VN Rewards?',
-  whyOneVNRewardsDesc1: 'With conventional browsers, you pay to browse the web by viewing ads with your valuable attention, spending your valuable time downloading invasive ad technology, that transmits your valuable private data to advertisers — without your consent.',
-  whyOneVNRewardsDesc2: 'Well, you\'ve come to the right place. OneVN welcomes you to the new internet. One where your time is valued, your personal data is kept private, and you actually get paid for your attention.',
+  whyOnevnRewards: 'Why 1-VN Rewards?',
+  whyOnevnRewardsDesc1: 'With conventional browsers, you pay to browse the web by viewing ads with your valuable attention, spending your valuable time downloading invasive ad technology, that transmits your valuable private data to advertisers — without your consent.',
+  whyOnevnRewardsDesc2: 'Well, you\'ve come to the right place. Onevn welcomes you to the new internet. One where your time is valued, your personal data is kept private, and you actually get paid for your attention.',
   yourWallet: 'Your wallet'
 }
 

@@ -1,7 +1,7 @@
 // @ts-ignore: Needed for ThemeProvider
 import * as React from 'react'
 import * as styledComponents from 'styled-components'
-import IThemeProps, { OneVNThemedStyledProps as ThemedStyledProps } from './theme-interface'
+import IThemeProps, { OnevnThemedStyledProps as ThemedStyledProps } from './theme-interface'
 // theme for testing
 import TestTheme from './onevn-default'
 
